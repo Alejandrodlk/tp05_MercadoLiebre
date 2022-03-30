@@ -1,0 +1,25 @@
+footer section{
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    
+}
+
+footer section i{
+    color: var(--Celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section h4{
+    margin: 0 ;
+}
+
+footer section p{
+    margin: 0 ;
+}
+
+.footer__copyrigth{
+    margin-top: 60px ;
+    font-size: 13px;
+    text-align: left;
+}
