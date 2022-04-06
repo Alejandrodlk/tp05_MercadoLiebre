@@ -18,13 +18,13 @@ header{
 }
 
 .header__burger{
-    width:50px;
+    display: block;
     padding: 15px ;
     background-color: var(--Celeste);
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 25px;
-    margin: 15px 45% 30px;
+    margin: 15px auto 30px;
     
 }
