@@ -9,22 +9,18 @@ header{
 
 .header__titulo{
     margin-left: 55px;
-
 }
 
 .header__enlaces{
     padding: 0; 
-
 }
 
 .header__burger{
-    display: block;
     padding: 15px ;
     background-color: var(--Celeste);
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 25px;
-    margin: 15px auto 30px;
-    
+    border-radius: 7px;
+    font-size: 30px;
+    margin: 20px 45% 25px;
 }
