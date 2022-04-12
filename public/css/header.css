@@ -8,11 +8,13 @@ header{
 }
 
 .header__titulo{
-    margin-left: 55px;
+    
+    margin-left: 60px;
 }
 
 .header__enlaces{
     padding: 0; 
+    display: none;
 }
 
 .header__burger{
@@ -23,4 +25,34 @@ header{
     border-radius: 7px;
     font-size: 30px;
     margin: 20px 45% 25px;
+}
+
+/* tablet */
+@media (min-width: 425px) {
+
+    .header__enlaces{
+       display: block;
+       margin-bottom: 0;
+       padding-bottom: 20px;
+
+    }
+    
+    .header__burger{
+        display: none;
+    }
+
+    .header__titulo{
+    
+        margin-left: 33%;
+    }
+
+}
+
+
+/* desktop */
+@media (min-width: 768px) {
+
+   
+    
+
 }
