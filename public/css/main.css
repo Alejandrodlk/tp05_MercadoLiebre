@@ -1,18 +1,31 @@
 
-
-.main__box {
-    
-    background-color: var(--GrisClaro);
-}
-
 .main__baner {
-   width: 100%;
-   
+    width: 100%;
+    margin-top: -16px;
+    
+ }
+
+/* main */
+.main__box {
+    width: 90%;
+    margin: 0 auto;
+    
 }
 
 .main__box-section {
-    width: 90%;
-    margin:0 auto 0;
+    width: 100%;
+    margin:0 auto ;
+    
+}
+
+.main__box-article {
+    width: 100%;
+    margin: 0 auto 10px;
+    background-color: white;
+}
+
+.main__article-image {
+    width: 100%;
 }
 
 .main__titulares {
@@ -20,22 +33,15 @@
     text-align: center;
 }
 
-.main__box-article {
-    width: 90%;
-    margin: 0 auto 0;
-    margin-bottom: 10px;
-}
-
-.main__article-image {
-    width: 100%;
-}
-
-
-
 .main__box-descripcion {
     border-top: solid 1px #ebebeb;
     padding: 15px;
     background-color: white;
+    position: relative;
+}
+
+.main__box-precio-descuento {
+    display: flex ;
 }
 
 .descripcion  {
@@ -47,25 +53,29 @@
     font-size: 16px;
     color: var(--Verde);
     margin: 0;
+    width: 70%;
+    margin: 3px 0 3px 0;
     }
 
 .precio {
     margin: 3px 0 3px 0;
+    width: 30%;
 
 }
 
 .fa-truck {
     color: var(--Verde);
-    font-size: 10px;
+    font-size: 13px;
     border:  solid 1px green;
     border-radius: 50%; 
-    padding: 2px 12px 12px 2px;
-    margin-left: 5px;
-    
+    padding: 4px;
+    position: absolute;
+    right: 20px;
+    top: -14px;
 }
 
-/* tablet */
-@media (min-width: 425px) {
+      /* tablet */ 
+ @media (min-width: 425px) {
 
     .descripcion  {
         font-size: 16px;
@@ -73,14 +83,29 @@
     }
 
     .main__box-article {
+        
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 46%;
+        
     }
 
-}
+    .main__box-article-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
 
+}   
+ 
 
 /* desktop */
 @media (min-width: 768px) {
-
+    .main__box-article {
+       
+        width: 23%;
+        
+    }
 
 }

@@ -1,7 +1,10 @@
 
+
+
 body {
     box-sizing: border-box;
-    margin: auto;
+    margin: 0 auto;
+    background-color: var(--GrisClaro);
 }
 
 a{

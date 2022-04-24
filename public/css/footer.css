@@ -1,6 +1,16 @@
+footer {
+    background-color: white;
+}
+
+.footer__section {
+   
+    width: 100%;
+    padding-top: 50px;
+}
+
 footer section{
     text-align: center;
-    margin: 20px 30px 20px 30px;
+   margin: 0 40px 50px;
     
 }
 
@@ -19,7 +29,8 @@ footer section p{
 }
 
 .footer__copyrigth{
-    margin-top: 60px ;
+    margin: 0px 0 10px 0px;
+    padding-bottom: 10px;
     font-size: 13px;
     text-align: left;
 }
